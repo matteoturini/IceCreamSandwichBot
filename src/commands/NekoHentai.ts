@@ -1,7 +1,5 @@
 import { Command } from 'discord-akairo';
-import { MessageEmbed } from 'discord.js';
-import { TextChannel } from 'discord.js';
-import { Message } from 'discord.js';
+import { TextChannel, Message, MessageEmbed } from 'discord.js';
 import fetch from 'node-fetch';
 import config from '../config.json';
 
@@ -9,7 +7,8 @@ class NekoHentaiCommand extends Command {
   constructor() {
     super('nekohentai', {
       aliases: ['nekonsfw', 'nekohentai'],
-      description: 'Manda um GIF NSFW de neko hentai.'
+      category: 'NSFW',
+      description: 'Manda um GIF NSFW de neko hentai.',
     })
   }
 

@@ -36,10 +36,14 @@ class IceCreamSandwichClient extends AkairoClient {
       inhibitorHandler: this.inhibitorHandler,
       listenerHandler: this.listenerHandler,
     });
-
+    
     this.listenerHandler.loadAll();
+    consola.success('Loaded all listeners!');
     this.inhibitorHandler.loadAll();
+    consola.success('Loaded all inhibitors!');
     this.commandHandler.loadAll();
+
+    console.clear();
 
     consola.success('Loaded all inhibitors, commands, and listeners!')
   }

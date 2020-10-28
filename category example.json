@@ -1,0 +1,67 @@
+[
+  [
+    {
+      "id": "help",
+      "categoryID": "default",
+      "category": [
+        "help",
+        "nekohentai",
+        "ping"
+      ],
+      "filepath": "/mnt/c/Users/mhotn/OneDrive/Documents/Coding/Discord/Nutellona/src/commands/Help.ts",
+      "aliases": [
+        "help",
+        "ajuda"
+      ],
+      "channel": null,
+      "ownerOnly": false,
+      "editable": true,
+      "typing": false,
+      "cooldown": null,
+      "ratelimit": 1,
+      "description": "Mostra os comandos disponiveis."
+    },
+    {
+      "id": "nekohentai",
+      "categoryID": "default",
+      "category": [
+        "help",
+        "nekohentai",
+        "ping"
+      ],
+      "filepath": "/mnt/c/Users/mhotn/OneDrive/Documents/Coding/Discord/Nutellona/src/commands/NekoHentai.ts",
+      "aliases": [
+        "nekonsfw",
+        "nekohentai"
+      ],
+      "channel": null,
+      "ownerOnly": false,
+      "editable": true,
+      "typing": false,
+      "cooldown": null,
+      "ratelimit": 1,
+      "description": "Manda um GIF NSFW de neko hentai."
+    },
+    {
+      "id": "ping",
+      "categoryID": "default",
+      "category": [
+        "help",
+        "nekohentai",
+        "ping"
+      ],
+      "filepath": "/mnt/c/Users/mhotn/OneDrive/Documents/Coding/Discord/Nutellona/src/commands/Ping.ts",
+      "aliases": [
+        "pingar",
+        "ping"
+      ],
+      "channel": null,
+      "ownerOnly": false,
+      "editable": true,
+      "typing": false,
+      "cooldown": null,
+      "ratelimit": 1,
+      "description": ""
+    }
+  ]
+]
