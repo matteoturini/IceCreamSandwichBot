@@ -1,0 +1,14 @@
+# Build Output
+dist/
+
+# Node Modules
+node_modules/
+
+# Config
+config.json
+
+# Package Manager Locks
+package-lock.json
+pnpm-lock.yaml
+pnpm-lock.yml
+yarn.lock
